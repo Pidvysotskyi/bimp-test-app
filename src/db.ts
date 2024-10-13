@@ -1,4 +1,5 @@
 import { Sequelize } from "sequelize";
-const sequelize = new Sequelize("postgres://postgres:12345678@localhost:5432/postgres");
+const { POSTGRES_PASSWORD } = process.env;
+const sequelize = new Sequelize(`postgres://postgres:${POSTGRES_PASSWORD}@postgres/postgres`);
 
 export default sequelize;
