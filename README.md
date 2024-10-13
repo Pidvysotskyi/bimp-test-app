@@ -12,3 +12,5 @@ To run and test the API on your local machine or server, follow these steps
 
 For development issues, you will need to set `POSTGRES_PASSWORD=<your own database password>` and `APP_PORT=<your own port for the application>` variables.
 Than use the npm scripts to run application in different modes and build the application after changes.
+
+! The API Documentation is available on: <https://documenter.getpostman.com/view/24862062/2sAXxS8rrt>
